@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/surface_concrete_texture"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".BiodataActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/phoneTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Phone"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/addressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Address"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dobTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Date Of Birth"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="25sp">
+
+    </TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_sky_gradient"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/imageBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#6C5139"
+        android:textColor="#10DCF6"
+        android:textSize="18dp"
+        android:text="Choose your image">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Enter your phone number"
+        android:inputType="phone"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/addressET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Enter your address"
+        android:inputType="text"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/dobET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Enter your date of birth"
+        android:inputType="date"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#F13A2C"
+        android:padding="10dp"
+        android:text="Go to Next"
+        android:textColor="#081765"
+        android:textSize="20sp">
+
+    </Button>
+
+
+</LinearLayout>
